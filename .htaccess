@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*)/(.*)/(.*)/$ index.php?primary1=$1&primary2=$2&primary3=$3 [L,QSA]
+    RewriteRule ^(.*)/(.*)/$ index.php?primary1=$1&primary2=$2 [L,QSA]
+    RewriteRule ^(.*)/$ index.php?primary1=$1 [L,QSA]
+    RewriteCond %{REQUEST_URI} /+[^\.]+$
+    RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+</IfModule>

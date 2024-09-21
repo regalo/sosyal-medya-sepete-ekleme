@@ -1,0 +1,26 @@
+:root {
+    --bg: #ffffff;
+    --menutxtcl: 111, 115, 145;
+    --menutxtweight: 600;
+    --intlinear: 0, 0, 0;
+    --txtall: 0, 0, 0;
+    --cl1: 255, 152, 0;
+    --pckdf: var(--cl1);
+    --whydf: var(--cl1);
+    --lbds: 255, 255, 255;
+    --lsdb: 56, 58, 70;
+    --text: 85, 85, 85;
+    --fixedtel: #cf6812;
+}
+body.dark {
+    --bg: #26272d;
+    --menutxtcl: 226, 226, 228;
+    --intlinear: 45, 45, 58;
+    --txtall: 226, 226, 228;
+    --cl1: 255, 152, 0;
+    --lbds: 56, 58, 70;
+    --lsdb: 255, 255, 255;
+    --pckdf: var(--cl1);
+    --text: 226, 226, 228;
+}
+

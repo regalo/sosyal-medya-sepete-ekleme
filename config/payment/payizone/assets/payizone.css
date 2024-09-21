@@ -1,0 +1,150 @@
+.payizorOdemeForm {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.pgBack {
+    margin: 0 15px;
+    background: #f5f6f7;
+    border: 1px solid #e3e7e9;
+    border-radius: 3px;
+    padding: 15px 25px;
+    margin: 0 auto;
+}
+.payizorOdemeForm select {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 3px;
+}
+.payizorOdemeForm label {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+    color: black;
+}
+.pzSubmitBTN {
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    background: url(../img/pattern.png), #2f84c8;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 15px 0;
+    transition: .2s;
+}
+.pgBack label {
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #2e3336;
+}
+.inpGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.pgBack input, .pgBack select {
+    border-radius: 3px !important;
+    border: 1px solid #e3e7e9 !important;
+    width: 100% !important;
+    margin-bottom: 15px !important;
+    padding: 15px !important;
+    font-size: 15px !important;
+}
+
+.pzSubmitBTN:hover {
+    box-shadow: 0px 5px 20px #2169a059;
+}
+.payizorOdemeForm iframe{
+    width: 100%;
+    min-height: 500px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+.securityBox {
+    margin-top: 20px;
+    background: url(../img/pattern.png), linear-gradient(269deg, #144f7b, #2f85c9);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+}
+.securityBox img.logo {
+    height: 35px;
+    position: relative;
+    top: 1px;
+}
+.securityBox img.security {
+    max-height: 30px;
+    max-width: 100%;
+    position: relative;
+    top: 2px;
+}
+@media (max-width: 800px) {
+    .payizorOdemeForm .row {
+        flex-direction: column-reverse;
+    }
+    .payizorOdemeForm {
+        padding: 0 10px;
+    }
+}
+@media (max-width: 590px) {
+    .inpGrid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0;
+    }
+    .pgBack {
+        padding: 8px 16px;
+    }
+    .securityBox {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .securityBox img.logo {
+        margin-bottom: 15px;
+    }
+}
+.payizorOdemeForm .alert {
+    padding: 15px;
+    border-radius: 3px;
+    background-color: #e56259;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.payizorOdemeForm .closebtn {
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.3s;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* When moving the mouse over the close button */
+.payizorOdemeForm .closebtn:hover {
+    color: black;
+}
+.woocommerce ul.order_details {
+    display: none !important;
+}
+
+/* Dark Mode */
+body.dark .pgBack {
+    background: rgba(var(--lbds));
+    border: 1px solid #ffffff12;
+}
+body.dark .pgBack label {
+    color: #fff;
+}
+body.dark .pgBack input, body.dark .pgBack select {
+    color: #fff;
+    background: var(--bg);
+    border: none !important;
+}

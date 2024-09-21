@@ -1,0 +1,305 @@
+/*
+Theme Name: NivuSoft Havale/EFT Sayfası
+Theme URL: https://nivusoft.com/
+Author: NivuSoft
+*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #555;
+}
+* {	
+	outline: 0;
+	text-decoration: none;
+}
+a {
+	color: #555;
+}
+a:hover, a:focus, a:active {
+	color: #222;
+}
+p {
+	margin: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*::placeholder {
+	color: #b8b8b8;
+}
+.c-pointer {
+	cursor: pointer;
+}
+.butto {
+    cursor: pointer;
+    padding: 5px 15px;
+    font-size: 13px;
+    border-radius: 7px;
+    transition: .4s;
+}
+.butto-xs {
+    padding: 4px 15px;
+    font-size: 13px;
+}
+.butto-lg {
+    padding: 7px 25px !important;
+    font-size: 15px;
+}
+.butto-primary, .badge-primary {
+    color: #fff !important;
+    background: #447deb;
+    border: none;
+}
+.butto-primary:hover, .badge-primary:hover {
+    color: #fff !important;
+    background: #4270c8;
+}
+.butto-success, .badge-success {
+    color: #fff !important;
+    background: #32c07a;
+    border: none;
+}
+.butto-success:hover, .badge-success:hover {
+    color: #fff !important;
+    background: #21a966;
+}
+.butto-warning, .badge-warning {
+    color: #fff !important;
+    background: #f5a53a;
+    border: none;
+}
+.butto-warning:hover, .badge-warning:hover {
+    color: #fff !important;
+    background: #e1952f;
+}
+.butto-info, .badge-info {
+    color: #fff !important;
+    background: #0fbcc8;
+    border: none;
+}
+.butto-info:hover, .badge-info:hover {
+    color: #fff !important;
+    background: #0ca9b4;
+}
+.butto-danger, .badge-danger {
+    color: #fff !important;
+    background: #f35253;
+    border: none;
+}
+.butto-danger:hover, .badge-danger:hover {
+    color: #fff !important;
+    background: #d94041;
+}
+.butto-secondary, .badge-secondary {
+    color: #fff !important;
+    background: #475F7B;
+    border: none;
+}
+.butto-secondary:hover, .badge-secondary:hover {
+    color: #fff !important;
+    background: #384d65;
+}
+.butto-light, .badge-light {
+    color: #fff !important;
+    background: #94a1b2;
+    border: none;
+}
+.butto-light:hover, .badge-light:hover {
+    color: #fff !important; 
+    background: #7c899b;
+}
+.butto-dark, .butto-niv, .badge-dark {
+    color: #fff !important;
+    background: #394c62;
+    border: none;
+}
+.butto-dark:hover, .butto-niv:hover, .badge-dark:hover {
+    color: #fff !important;
+    background: #303f51;
+}
+.alert {
+	position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.alert-primary {
+    background: #bfcaff;
+    border-radius: 8px;
+    color: #1b3a76;
+    border-bottom: 2px solid #0000001a;
+}
+.alert-danger {
+    background: #febdbe;
+    border-radius: 8px;
+    color: #8f2630;
+    border-bottom: 2px solid #0000001a;
+}
+.alert-warning {
+    background: #ffddb0;
+    border-radius: 8px;
+    color: #72602e;
+    border-bottom: 2px solid #0000001a;
+}
+.alert-success {
+    background: #acedc3;
+    border-radius: 8px;
+    color: #155724;
+    border-bottom: 2px solid #0000001a;
+}
+.alert-light, .alert-secondary {
+    background: #dce6f3;
+    border-radius: 8px;
+    color: #5f728a;
+    border:none;
+    border-bottom: 2px solid #0000001a;
+}
+.alert-dark {
+    background: #90a5be;
+    border-radius: 8px;
+    color: #23282e;
+    border-bottom: 2px solid #0000001a;
+}
+
+.butbor {
+    border-bottom: 2px solid #00000040;
+}
+.alert-dark p {
+    color: #fff;
+}
+.alert p {
+    color: #404040;
+}
+.kart {
+    box-shadow: 0 5px 1.5rem rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+}
+.kart-ust {
+	padding: 0.85rem 1.25rem;
+	background-color: rgba(255, 255, 255, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+.kart-govde {
+	padding: 0.85rem 1.25rem;
+}
+.kart-alt {
+    padding: 0.85rem 1.25rem;
+    background-color: #ffffff;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    border-bottom: none;
+}
+.form-control {
+	width: 100%;
+    height: 47px;
+    padding: 10px 15px;
+    border: 1px solid #e0e0e0;
+    box-shadow: none;
+    border-radius: 8px !important;
+    font-size: 15px;
+    color: #808080;
+}
+.form-control:focus {
+    box-shadow: none;
+    outline: 0;
+    border-color: #cfcfcf;
+}
+.padver {
+	padding-top: 40px;
+}
+.b-none {
+	border: none;
+}
+.kart-ust.kbt {
+	border: none;
+}
+.chevron::before {
+	border-style: solid;
+    border-width: 0.25em 0.25em 0 0;
+    content: '';
+    display: inline-block;
+    height: 12px;
+    left: 0.15em;
+    position: relative;
+    transform: rotate(-45deg);
+    width: 12px;
+}
+.chevron:before {
+	left: 0;
+	transform: rotate(45deg);
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+.collaps {
+	display: none;
+	position: relative;
+	transition: .4s;
+	top: -20px;
+	opacity: 0;
+}
+.kart.show .collaps {
+	display: block;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+	top: 0px;
+	opacity: 1;
+}
+.kart.show .kart-ust.kbt {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+.kart i {
+	transition: .4s;
+	font-size: 17px;
+	position: relative;
+	top: 3px;
+}
+.kart.show i {
+	transform: rotate(90deg);
+}
+.bank-flex {
+    /* padding: 10px 0px; */
+    list-style: none;
+    padding: 13px;
+}
+ul.banklist {
+    padding: 2px;
+    display: grid;
+    height: fit-content;
+}
+.bank-ico {
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+}
+.bank-ico img {
+    width: 85px;
+    height: 85px;
+    border-radius: 6px;
+    float: left;
+}
+.bank-dets {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15px;
+    text-align: left;
+    width: calc(100% - 85px);
+    float: left;
+}
+
+
+@media (max-width: 768px) {
+	.padver {
+		padding-top: 25px;
+	}
+	.m-ptb {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+}
